@@ -1,0 +1,93 @@
+ul {
+  list-style-type: none;
+ margin-top: -20px;
+	margin-bottom: 020px;
+	margin-right: -10px;
+	margin-left: -10px;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding:16px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color:royalblue;
+}
+body {
+  background-image: url(ssbb.jpg);
+  
+background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+	 
+  background-size: cover;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 25%;
+	height: 50%;
+}
+
+td, th {
+  border: 1px ;
+  text-align: left;
+  padding: 8px;
+}
+
+tr{
+  background-image: linear-gradient(wheat,white);
+}
+
+
+h1 {
+  color: white;
+  text-align: center;
+	background-color:black;
+}
+
+input[type=text], select {
+	 
+  
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  box-sizing: border-box;
+	 width: 25%;
+	height: 50%;
+	
+}
+
+input[type=submit] {
+  
+  background-color: royalblue;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+	 width: 25%;
+	height: 50%;
+	
+}
+
+input[type=submit]:hover {
+  background-color: blueviolet;
+}
+
+
